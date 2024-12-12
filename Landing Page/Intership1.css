@@ -1,0 +1,52 @@
+/* Reset and general styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e0f7fa;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.features {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.feature-item {
+    margin: 20px 0;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
